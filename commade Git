@@ -4,5 +4,9 @@ git config --global credential.helper cache  // Set git to use the credential me
 
 vi ~/.gitconfig // ajouter les alias dans le projet
 git reset --hard HEAD~1   /// Pour annuler des commits, il existe la commande git reset.
+git stash  //Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses sont dans un état instable mais vous voulez changer de branche pour travailler momentanément sur autre chose. Le problème est que vous ne voulez pas valider un travail à moitié fait seulement pour pouvoir y revenir plus tard. La réponse à cette problématique est la commande git stash.
+
+git stash list
+git stash apply
 
 
