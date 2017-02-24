@@ -1,3 +1,4 @@
 git config --global credential.helper cache  // Set git to use the credential memory cache
 vi ~/.gitconfig // ajouter les alias dans le projet
+git reset --hard HEAD~1   /// Pour annuler des commits, il existe la commande git reset.
 
